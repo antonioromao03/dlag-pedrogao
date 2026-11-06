@@ -9,7 +9,7 @@ Outputs go to `data/interim/` (reprojected, clipped, rasterized layers) and `dat
 
 ## Running steps headless with `qgis_process`
 
-`qgis_process` ships with QGIS. On macOS it is inside the app bundle, not on your PATH:
+`qgis_process` ships with QGIS. On macOS it is inside the app bundle, not on PATH:
 
 ```bash
 QP=$(ls /Applications/QGIS*.app/Contents/MacOS/bin/qgis_process | head -1)
@@ -18,7 +18,7 @@ QP=$(ls /Applications/QGIS*.app/Contents/MacOS/bin/qgis_process | head -1)
 "$QP" run qgis/<model>.model3 -- PARAM=value ...
 ```
 
-To turn a step you did in the GUI into a command: open the tool's dialog, click **Advanced** at the bottom and copy it as a `qgis_process` command.
+To turn a step in the GUI into a command: open the tool's dialog, click **Advanced** at the bottom and copy it as a `qgis_process` command.
 
 ## Steps
 

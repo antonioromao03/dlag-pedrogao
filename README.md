@@ -1,4 +1,4 @@
-# Pedrógão Grande wildfire, June 2017: deep learning on satellite data
+# Pedrógão Grande Wildfire, June 2017: Deep Learning on Satellite Data
 
 Course project for **Deep Learning in Analysis of Geohazards**, AGH University of Krakow, winter semester 2026/27 (lecturer: Agnieszka Malinowska). Individual project by António Romão.
 
@@ -35,13 +35,13 @@ QGIS 4 is installed separately and used for data preparation; see `qgis/README.m
 
 Data files are not in git. `data/README.md` lists every dataset, its source, licence and size, and `data/download_data.py` fetches them (about 6.3 GB, plus 14 GB for the optional benchmark).
 
-## Reproducing the results
+## Reproducing the Results
 
 1. Download the data: `cd data && python3 download_data.py`
 2. Prepare the inputs with the steps in `qgis/` (writes `data/interim/` and `data/processed/`).
 3. Run the notebooks in `notebooks/` in order.
 
-## Course material
+## Course Material
 
 The syllabus and lecture material are kept outside this repo: `../../Syllabus.pdf` and `../../Lectures/`.
 
