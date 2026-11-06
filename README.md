@@ -4,7 +4,7 @@ Course project for **Deep Learning in Analysis of Geohazards**, AGH University o
 
 ## Status
 
-- **Part 1, understanding the geohazard and its data:** done. See `deliverables/Part_1_Brief-Pedrogao_Grande_Wildfire.pdf`.
+- **Part 1, understanding the geohazard and its data:** done. See `deliverables/Part_1_Brief.pdf` (slides) and `deliverables/dataset_catalog.md` (what to download for each dataset, with priority, resolution, format, licence and caveats).
 - **Data:** downloaded and checked. See `data/README.md`.
 - **Final project:** direction not chosen yet. Candidates: burnt-area segmentation, burn-severity mapping, wildfire susceptibility mapping.
 
@@ -13,7 +13,7 @@ Course project for **Deep Learning in Analysis of Geohazards**, AGH University o
 ```text
 .
 ├── data/              download script, data notes; raw/, interim/, processed/ are not in git
-├── deliverables/      submitted work (Part 1 brief; later the report and slides)
+├── deliverables/      submitted work (Part 1 brief, dataset catalog; later the report and slides)
 ├── tasks/             assignment sheets
 ├── qgis/              QGIS models and scripts for data preparation (see qgis/README.md)
 ├── src/pedrogao/      Python package: paths, baselines, dataset, models, training, metrics

@@ -66,7 +66,7 @@ The DEM comes from the public AWS copy, so the OpenTopography key and plugin are
 | 69728 | BL4171577 | Pedrógão Grande, Escalos Fundeiros, 2017-06-17 14:43 | 30,618 ha | 30,359 ha | 211 Negligent – accidental: transport and communications |
 | 68910 | BL217377 | Góis, Alvares, 2017-06-17 14:52 | 17,432 ha | 17,521 ha | 51 Natural |
 
-Together 48,049 ha (GIS). That is higher than the 28,914 ha (Pedrógão only) and 45,328 ha (five-fire complex) figures in the Part 1 brief; report which figure each comparison uses.
+Together 48,049 ha (GIS). That is higher than the 28,914 ha (Pedrógão only) and 45,328 ha (five-fire complex) figures in the Part 1 brief; report which figure each comparison uses. `deliverables/dataset_catalog.md` lists all the burnt-area figures side by side.
 
 **Extra training fires** (ICNF 2017, start date, GIS area): Lousã 15 Oct, 67,911 ha; Arganil 15 Oct, 47,200 ha; Sertã (Ermida) 15 Oct, 35,422 ha; Sertã (Várzea dos Cavaleiros) 23 Jul, 33,712 ha; Alvaiázere 11 Aug, 23,760 ha; Figueira da Foz 15 Oct, 21,184 ha; Vouzela 15 Oct, 21,086 ha; Alcobaça 15 Oct, 17,290 ha. Each needs its own Sentinel-2 pre/post pair, which the script does not fetch.
 
