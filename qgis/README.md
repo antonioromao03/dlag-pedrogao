@@ -24,4 +24,7 @@ To turn a step in the GUI into a command: open the tool's dialog, click **Advanc
 
 | Script | Input | Output | What it does |
 | --- | --- | --- | --- |
-| *(none yet)* | | | |
+| `s2_warp_bands.py` | `data/raw/sentinel2/` | `data/processed/s2_<date>_<band>.tif` (32 files) | Crops 8 bands of 4 dates to the AOI extent and resamples to 10 m, EPSG:32629 |
+| `check_grid.py` | `data/processed/*.tif` | printed OK/BAD per file | Confirms every raster is 4224 × 5322 at 10 m, EPSG:32629 |
+
+Both are PyQGIS scripts: run them from the Python Console editor (**Show Editor ▸ Open Script ▸ Run Script**), not from a plain terminal.

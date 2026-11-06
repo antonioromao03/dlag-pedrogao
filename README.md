@@ -38,7 +38,7 @@ Data files are not in git. `data/README.md` lists every dataset, its source, lic
 ## Reproducing the Results
 
 1. Download the data: `cd data && python3 download_data.py`
-2. Prepare the inputs with the steps in `qgis/` (writes `data/interim/` and `data/processed/`).
+2. Prepare the inputs with the steps in `qgis/` (writes `data/processed/`).
 3. Run the notebooks in `notebooks/` in order.
 
 ## Course Material
