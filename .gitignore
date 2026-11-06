@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+
+# Data: downloads and everything derived from them stay out of git.
+# data/README.md, data/download_data.py and data/download_log.csv are tracked.
+data/raw/
+data/interim/
+data/processed/
+data/download_log.csv
+
+# Training outputs: checkpoints, predictions, logs
+outputs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# QGIS and GDAL side files
+*.aux.xml
+*~
+
+# Claude Code personal settings (machine-specific paths)
+.claude
+CLAUDE.md

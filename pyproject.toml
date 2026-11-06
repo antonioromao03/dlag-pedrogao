@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pedrogao"
+version = "0.1.0"
+description = "Deep learning analysis of the June 2017 Pedrógão Grande wildfire (DLAG course project, AGH University of Krakow)"
+authors = [{ name = "António Romão", email = "antonio.romao03@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = ["numpy", "rasterio", "geopandas", "torch"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

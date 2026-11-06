@@ -1,0 +1,23 @@
+# Create with:  conda env create -f environment.yml   (run from the repo root)
+# Update with:  conda env update -f environment.yml --prune
+name: dlag
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - geopandas
+  - rasterio
+  - shapely
+  - pyproj
+  - scikit-learn
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - tqdm
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - -e .
