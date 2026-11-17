@@ -12,7 +12,7 @@ Outputs go to `data/interim/` (reprojected, clipped, rasterized layers) and `dat
 `qgis_process` ships with QGIS. On macOS it is inside the app bundle, not on PATH:
 
 ```bash
-QP=$(ls /Applications/QGIS*.app/Contents/MacOS/bin/qgis_process | head -1)
+QP=$(ls /Applications/QGIS*.app/Contents/MacOS/qgis_process | head -1)
 "$QP" list                              # all Processing algorithms
 "$QP" help native:reprojectlayer        # parameters of one algorithm
 "$QP" run qgis/<model>.model3 -- PARAM=value ...
