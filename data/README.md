@@ -16,9 +16,9 @@ The zip archives were extracted, checked file by file and deleted on 5 Nov 2026.
 
 | Folder | Contents | Size |
 | --- | --- | --- |
-| `raw/sentinel2/` | 4 Sentinel-2 L2A scenes, tile T29TNE, as unzipped `.SAFE` folders (bands in `GRANULE/*/IMG_DATA/R10m`, `R20m`, `R60m`) | 4.9 GB |
-| `raw/icnf/` | `ardida_2017/ardida_2017.shp` (all 2017 burnt areas, 2,765 polygons, EPSG:3763) and `icnf_june2017_pedrogao_gois.geojson` (the two June fires, EPSG:4326) | small |
-| `raw/emsr207/vector/` | all 61 EMSR207 vector packages, one folder per product (shapefiles and KMZ in `VECTOR/`) | 1 GB |
+| `raw/sentinel2/` | 4 Sentinel-2 L2A scenes, tile T29TNE, as unzipped `.SAFE` folders, trimmed on 18 Nov 2026 to the bands the project uses: `GRANULE/*/IMG_DATA/R10m` (B02, B03, B04, B08, TCI) and `R20m` (B8A, B11, B12, SCL); the other bands and `R60m` were deleted and can be re-downloaded | 2.9 GB |
+| `raw/icnf/` | `ardida_2017/ardida_2017.shp` (all 2017 burnt areas, 2,765 polygons, EPSG:3763) (`icnf_june2017_pedrogao_gois.geojson`, the two June fires, was deleted as a duplicate; `download_data.py` fetches it again on its next run) | small |
+| `raw/emsr207/vector/` | all 61 EMSR207 vector packages, one folder per product (shapefiles; the duplicate KMZ files were deleted) | 0.7 GB |
 | `raw/emsr207/pdf/` | PDF maps for AOI05 Pedrógão Grande and AOI11 Overview | 125 MB |
 | `raw/dem_glo30/` | Copernicus DEM GLO-30, tiles N39–N40 × W009–W008 (GeoTIFF, EPSG:4326) | 174 MB |
 | `raw/cos2015/` | `COS2015v2-S1.gpkg`, land use/land cover (648,006 polygons, EPSG:3763) | 1.4 GB |

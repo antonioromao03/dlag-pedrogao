@@ -67,7 +67,7 @@ Why only these two: the other 2017 ICNF fires inside the 5 km buffer are either 
 
 ## Step 5 – Look at a Sentinel-2 scene
 
-Each scene is a folder ending in `.SAFE`. Its images sit in `GRANULE/L2A_T29TNE_…/IMG_DATA/`, sorted by pixel size into `R10m`, `R20m` and `R60m`, one JPEG 2000 file (.jp2) per band, named like `T29TNE_20170704T112111_B08_10m.jp2`. The bands you need: B02 blue, B03 green, B04 red and B08 near-infrared (NIR) at 10 m; B8A narrow NIR, B11 and B12 short-wave infrared (SWIR) and SCL (scene classification) at 20 m. TCI is a ready-made true-colour picture.
+Each scene is a folder ending in `.SAFE`. Its images sit in `GRANULE/L2A_T29TNE_…/IMG_DATA/`, sorted by pixel size into `R10m` and `R20m` (the original product also has `R60m`, deleted here as unused), one JPEG 2000 file (.jp2) per band, named like `T29TNE_20170704T112111_B08_10m.jp2`. The bands you need: B02 blue, B03 green, B04 red and B08 near-infrared (NIR) at 10 m; B8A narrow NIR, B11 and B12 short-wave infrared (SWIR) and SCL (scene classification) at 20 m. TCI is a ready-made true-colour picture.
 
 1. In the Browser open `raw/sentinel2/S2A_MSIL2A_20170704T112111_…SAFE/GRANULE/L2A_T29TNE_A010616_20170704T112431/IMG_DATA/R10m/` and drag `T29TNE_20170704T112111_TCI_10m.jp2` onto the map. Zoom into the `aoi_5km` outline.
 2. Add the 14 June picture the same way (`…20170614…/R10m/T29TNE_20170614T112111_TCI_10m.jp2`) and switch between the two with the tick boxes.
